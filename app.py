@@ -35,7 +35,7 @@ def main():
                     get_transcripts(links, db_name)
                 with st.spinner("Embedding..."):
                     create_vect_db(db_name)
-                st.info(f"Database '{db_name}' created.")
+                st.info(f"Database '{db_name}' was created.")
     
     st.header("Youtube QA")
     question = st.text_input("Ask a question:")
