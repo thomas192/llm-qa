@@ -1,6 +1,7 @@
 data/
 db/
 prompts/
+urls.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
